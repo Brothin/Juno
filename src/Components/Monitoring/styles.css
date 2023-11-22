@@ -1,0 +1,76 @@
+.monitor {
+  width: 100%;
+  padding: 0.5rem 1.2rem 0.5rem 0;
+  overflow-x: auto;
+}
+
+.monitor h1 {
+  margin: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.tabsContainer {
+  padding: 1rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.24);
+}
+
+.tabsContainer .tabs {
+  gap: 0.9rem;
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-between;
+}
+
+.tabs p {
+  margin: 0;
+  color: rgb(201, 201, 201);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.tabs p:hover {
+  color: #5755d380;
+}
+
+.closeAccountButton {
+  padding: 0.2rem 0.55rem;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6d8d8;
+  color: #d13b3b;
+  cursor: pointer;
+}
+
+.closeAccountButton p {
+  margin: 0;
+  font-size: 0.8rem;
+  margin-bottom: 0.1rem;
+}
+
+.closeAccountButton .closeIcon {
+  transform: scale(0.7);
+}
+
+.tabsContainer .selected {
+  position: relative;
+  color: #4643ee;
+  transition: 0.4s ease-in-out;
+}
+
+.selected::before {
+  content: "";
+  height: 2px;
+  width: 120%;
+  background-color: #4643ee;
+  position: absolute;
+  bottom: -1.1rem;
+  left: -0.4rem;
+}
