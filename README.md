@@ -1,8 +1,11 @@
 # Description
 Simple dashboard showing all users currently in the monitoring queue who need to be reviewed for risky behaviour.
 
-# Getting started
+# Website link
+[Juno](https://papaya-tarsier-37bd9f.netlify.app)
 
+# Getting started
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Clone the repository
 ```
 https://github.com/Brothin/Juno.git
